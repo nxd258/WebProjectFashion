@@ -1,0 +1,14 @@
+services:
+  app:
+    image: male-fashion:latest
+    container_name: male-fashion
+    restart: always
+    ports:
+      - "80:8080"         # hoặc để 8080:8080 nếu đã có Nginx proxy
+    environment:
+      JAVA_TOOL_OPTIONS: "-XX:+UseContainerSupport -Xms256m -Xmx512m"
+    # networks:
+    #   - backend
+# networks:
+#   backend:
+#     driver: bridge

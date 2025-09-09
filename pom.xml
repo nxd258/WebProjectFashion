@@ -9,9 +9,9 @@
 	</parent>
 	<groupId>WebProject</groupId>
 	<artifactId>WebProject</artifactId>
-	<version>port8989</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
-	<name>WebProject</name>
+	<name>malefashion</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
